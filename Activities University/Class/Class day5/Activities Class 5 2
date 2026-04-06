@@ -1,10 +1,7 @@
-#Algoritmo para ler dois números e verificar qual é o maior
-a=int(input("Digite o primeiro número: "))
-b=int(input("Digite o segundo número: "))
+#Algoritmo para ler o número e verificar se está entre 0 á 10
+a=int(input("Digite um número: "))
 
-if a==b:
-    print("Os dois números são iguais")
-elif a>b:
-    print("O maior número é", a)
+if a>=0 and a<=10:
+    print("Dentro do intervalo")
 else:
-    print("O maior número é", b)
+    print("Fora do intervalo")
