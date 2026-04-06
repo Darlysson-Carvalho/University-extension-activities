@@ -1,5 +1,10 @@
-#Algoritmo de Multiplicação de um número
-a=input("Digite um número: ")
-b=int (a)
-c=b*2
-print(c)
+#Algoritmo para ler dois números e verificar qual é o maior
+a=int(input("Digite o primeiro número: "))
+b=int(input("Digite o segundo número: "))
+
+if a==b:
+    print("Os dois números são iguais")
+elif a>b:
+    print("O maior número é", a)
+else:
+    print("O maior número é", b)
