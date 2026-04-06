@@ -1,0 +1,8 @@
+#Algoritmo que define número dentro de intervalo entre 0 a 100
+a=int(input("Digite um valor: "))
+
+if a>=0 and a<=100:
+    print("Dentro do intervalo")
+else:
+    print("Fora do intervalo")
+    print(a)
