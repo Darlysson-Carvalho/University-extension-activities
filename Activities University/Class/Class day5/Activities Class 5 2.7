@@ -1,15 +1,11 @@
-#Algoritmo para definir número par e impar, positivo ou negativo e neutro
-a=int(input("Digite um número: "))
+#Algoritmo para definir se o usuário é Criança,Adulto ou Idoso 
+a=int(input("Digite sua idade: "))
 
-if a==0:
-    print("Numero neutro")
-elif a>0:
-    if a%2==0:
-        print("Par positivo")
-    else:
-        print("Impar positivo")
+if a>=18 and a<=59:
+    print("Adulto")
+elif a>60:
+    print("Idoso")
+elif a<18 and a>=0:
+    print("Criança")
 else:
-    if a%2==0:
-        print("Par negativo")
-    else:
-        print("Impar negativo")
+    print("Idade Inválida")
