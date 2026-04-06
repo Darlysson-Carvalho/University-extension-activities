@@ -1,0 +1,7 @@
+#Verificar se número é múltiplo por 3
+a=int(input("Digite um número: "))
+
+if a%3==0:
+    print("Múltiplo de 3")
+else:
+    print("Não é múltiplo de 3")
