@@ -1,0 +1,7 @@
+#Algoritimo para verificar se número está entre 10 e 20
+a=int(input("Digite um número: "))
+
+if a>=10 and a<=20:
+    print("Dentro")
+else:
+    print("Fora")
