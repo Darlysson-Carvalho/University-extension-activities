@@ -1,0 +1,15 @@
+#Algoritmo para definir número par e impar, positivo ou negativo e neutro
+a=int(input("Digite um número: "))
+
+if a==0:
+    print("Numero neutro")
+elif a>0:
+    if a%2==0:
+        print("Par positivo")
+    else:
+        print("Impar positivo")
+else:
+    if a%2==0:
+        print("Par negativo")
+    else:
+        print("Impar negativo")
