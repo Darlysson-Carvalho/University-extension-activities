@@ -1,1 +1,3 @@
-
+#Algoritmo para converter graus celsios para fh
+a=float(input("Digite a temperatura em graus Celsius: "))
+print("Convertendo o valor para Fahrenheit fica",(a*9/5)+32)
