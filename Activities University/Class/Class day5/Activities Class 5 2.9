@@ -6,9 +6,9 @@ if a==b:
     print("Numeros Iguais")
 else:
     print("Numeros Diferentes")
-    if a<=0:
-        print("O resultado da diferença dos dois números foram",a+b)
-    elif b<=0:
+    if a>0 and b>0:
+        print("O resultado da diferença dos dois números foram:",a-b)
+    elif b<0:
         print("O resultado da diferença dos dois números foram:",a+b)
     else:
-        print("O resultado da diferença dos dois números foram:",a-b)
+        print("O resultado da diferença dos dois números foram:",a-(-b))
