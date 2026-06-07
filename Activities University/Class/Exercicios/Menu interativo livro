@@ -1,0 +1,39 @@
+import livro.py  
+
+def main():
+    while True:
+        print("-" * 20)
+        print("Menu interativo do Livro de Algoritimos e Logica de Programação")
+        print("-" * 20)
+        print()
+        print("Lista de Exercicios 1")
+        print("Lista de Exercicios 2")
+        print("Lista de Exercicios 3")
+        print("Lista de Exercicios 4")
+        print("Lista de Exercicios 5")
+        print("Lista de Exercicios 6")
+        print("Sair do programa 7")
+        print()
+        print("-" * 20)
+
+        resp = int(input("Digite o número da opção desejada: "))
+        if resp == 1:
+            livro.livro1()
+        elif resp == 2:
+            livro.livro2()
+        elif resp == 3:
+            livro.livro3()
+        elif resp == 4:
+            livro.livro4()
+        elif resp == 5:
+            livro.livro5()
+        elif resp == 6:
+            livro.livro6()
+        elif resp == 7:
+            print("Saindo do programa...")
+            break
+        else:
+            print("Digite uma opção válida!")
+            
+main()
+
