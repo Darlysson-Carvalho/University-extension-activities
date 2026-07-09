@@ -1,0 +1,10 @@
+#Algoritmo para descobrir se número é par positivo e negativo ou impar
+a=int(input("Digite um número: "))
+
+if a%2==0:
+    if a>0:
+        print("Par e positivo")
+    else:
+        print("Par e negativo")
+else:
+    print("Impar")

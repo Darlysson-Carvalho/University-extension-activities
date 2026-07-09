@@ -1,4 +1,4 @@
-import livro.py  
+import lista1.py  
 
 def main():
     while True:

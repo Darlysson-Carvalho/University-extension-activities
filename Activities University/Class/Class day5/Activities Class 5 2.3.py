@@ -1,0 +1,7 @@
+#Algoritmo de multiplicação e divisão de números maiores que 100
+a=int(input("Digite um número: "))
+
+if a>100:
+    print(a*1/2)
+else:
+    print(a*2)
